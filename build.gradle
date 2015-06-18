@@ -17,15 +17,15 @@ plugins {
 }
 
 version "1.0.0"
-group "domurtag.plugins"
+group "rohitbishnoi.plugins"
 
 bintray {
     pkg {
-        name = "domurtag.plugins:$project.name"
-        issueTrackerUrl = "https://github.com/domurtag/grails-simple-captcha/issues"
-        vcsUrl = "https://github.com/domurtag/grails-simple-captcha"
+        name = "rohitbishnoi.plugins:$project.name"
+        issueTrackerUrl = "https://github.com/rohitbishnoi/grails-simple-captcha/issues"
+        vcsUrl = "https://github.com/rohitbishnoi/grails-simple-captcha"
         version {
-            attributes = ['grails-plugin': "domurtag.plugins:$project.name"]
+            attributes = ['grails-plugin': "rohitbishnoi.plugins:$project.name"]
             name = project.version
         }
     }

@@ -21,6 +21,7 @@ group "rohitbishnoi.plugins"
 
 bintray {
     pkg {
+        userOrg = ''
         name = "rohitbishnoi.plugins:$project.name"
         issueTrackerUrl = "https://github.com/rohitbishnoi/grails-simple-captcha/issues"
         vcsUrl = "https://github.com/rohitbishnoi/grails-simple-captcha"
